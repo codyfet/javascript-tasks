@@ -45,7 +45,7 @@ var b = c.next(); // 2
 
 ---
 
-## 3. Функции
+## 3. Функции и контекст вызова
 
 **Задача 3.1.** 
 Сложность: :star::star:
@@ -61,3 +61,22 @@ add(2)(5); // 7
 
 ---
 
+**Задача 3.2.** 
+Сложность: :star::star:
+
+Исправьте код таким образом, чтобы вызов функции на последней строке выводил в консоль имя Sam:
+
+```
+var person = {
+    name: "Sam",
+    hello: function() {
+        console.log(this.name);
+    }
+};
+var hello = person.hello;
+hello(); 
+```
+
+> Источник: https://github.com/vvscode/js--interview-questions/blob/master/topics/inheritance-vs-context.md
+
+---
