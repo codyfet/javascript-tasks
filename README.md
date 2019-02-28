@@ -1,6 +1,12 @@
 # javascript-tasks
 Задачи для изучающих JavaScript
 
+:star: - элементарные
+
+:star::star:- базовые
+
+:star::star::star: - продвинутые
+
 ## 1. Рекурсия
 
 **Задача 1.1.** 
@@ -80,3 +86,22 @@ hello();
 > Источник: https://github.com/vvscode/js--interview-questions/blob/master/topics/inheritance-vs-context.md
 
 ---
+
+## 4. Замыкания
+**Задача 4.1.** 
+Сложность: :star::star:
+
+Как исправить код ниже, чтобы он выел в консоль 5 разных значений (от 0 до 4):
+
+```
+for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+        console.log(i);
+    }, 1000);
+}
+```
+
+> Источник: https://github.com/vvscode/js--interview-questions/blob/master/topics/closures.md
+
+---
+
